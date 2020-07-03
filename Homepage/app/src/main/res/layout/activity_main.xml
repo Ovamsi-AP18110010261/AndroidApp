@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#D6EDE8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:background="#EFBCAB"
+        android:layout_marginTop="30sp"
+        android:textSize="40sp"
+        android:textColor="#123456"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/username"
+        android:hint="Enter Username"
+        android:textSize="25sp"
+        android:textColor="#123456"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textSize="25sp"
+        android:textColor="#123456"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="login"
+        android:text="Login"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:layout_marginBottom="22dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textSize="25sp"
+        android:onClick="register"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        />

@@ -41,6 +41,29 @@
         android:inputType="numberPassword|textPassword"
         android:id="@+id/password"/>
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:textSize="20dp"
+            android:id="@+id/male"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:textSize="20dp"
+            android:id="@+id/female"
+            />
+    </RadioGroup>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height=""
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,11 +73,13 @@
         android:id="@+id/button"
         />
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Data"
         android:textSize="30dp"
+        android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:id="@+id/tv"
         app:layout_constraintBottom_toBottomOf="parent"

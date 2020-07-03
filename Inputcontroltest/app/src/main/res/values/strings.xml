@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Inputcontroltest</string>
+    <string-array name="districts">
+        <item>Kadapa</item>
+        <item>Chittoor</item>
+        <item>Ananthapur</item>
+        <item>Kurnool</item>
+        <item>Nellore</item>
+        <item>Guntur</item>
+        <item>Prakasam</item>
+    </string-array>
+
+    <string-array name="Kadapa_mandals">
+        <item>KDP1</item>
+        <item>KDP2</item>
+        <item>KDP3</item>
+        <item>KDP4</item>
+        <item>KDP5</item>
+        <item>KDP6</item>
+    </string-array>
+    <string-array name="Prakasam_mandals">
+        <item>PRK1</item>
+        <item>PRK2</item>
+        <item>PRK3</item>
+        <item>PRK4</item>
+        <item>PRK5</item>
+        <item>PRK6</item>
+    </string-array>
 </resources>
